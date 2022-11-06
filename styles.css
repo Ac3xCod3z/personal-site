@@ -10,9 +10,14 @@ line-height: 2;
 }
 
 a{
-color:#11999E;
+color: #11999E;
 font-family: 'Merriweather', serif;
 margin:2px;
+text-decoration: none;
+}
+
+a:hover {
+color: #CDF0EA;
 }
 
 
@@ -134,10 +139,6 @@ text-align:right
   color:#66BFBF;
   background-color: #EAF6F6;
 }
-.about:hover {
-backgorund:#11999E;
-text-decoration: none;
-}
 
 .task {
     height:50px;
@@ -150,10 +151,6 @@ text-decoration: none;
   color:#66BFBF;
   background-color: #EAF6F6;
 }
-.task:hover {
-background:#11999E;
-text-decoration: none;
-}
 
 .contact {
     width:50px;
@@ -165,11 +162,6 @@ text-decoration: none;
   color:#66BFBF;
   background-color: #EAF6F6;
 }
-.contact:hover {
-background:#11999E;
-text-decoration: none;
-}
-
 
 .p1 {
   padding-top:10px;
